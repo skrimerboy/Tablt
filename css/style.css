@@ -1,8 +1,14 @@
 @import url(reset.css);
 body{
-  width: 375px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: stretch;
+  justify-content: space-evenly;
+  max-width: 375px;
 }
 caption{
+max-width: 375px;
   margin-top: 20px;
   background-color: #4F4F4F;
   color: white;
@@ -13,16 +19,17 @@ th{
   background-color: #d3d3d3;
 }
 table{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
   overflow-x: scroll;
-
-    width: 100%;
-    max-width: 700px;
+  width: 100%;
   border: 1px solid #4F4F4F;
 }
 tr{
   border: 1px solid #4F4F4F;
-  margin: 10px;
-  padding:4px;
+  margin: 7px;
 }
 td{
   margin: 10px;
@@ -46,10 +53,19 @@ ol > li:before{
 h1{
   margin-top: 20px;
   margin-left:10px;
-  width: 375px;
+  max-width: 375px;
   font-size: 24px;
 }
 p{
-  width: 375px;
+  max-width: 375px;
 margin-left:10px;
 }
+.Start{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: column;
+  align-content: flex-start;
+  max-width: 375px;
+}
+
