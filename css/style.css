@@ -1,4 +1,7 @@
 @import url(reset.css);
+body{
+  width: 375px;
+}
 caption{
   margin-top: 20px;
   background-color: #4F4F4F;
